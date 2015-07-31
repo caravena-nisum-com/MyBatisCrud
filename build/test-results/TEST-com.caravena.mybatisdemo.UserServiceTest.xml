@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caravena.mybatisdemo.UserServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-07-30T21:28:48" hostname="NI-NTB-024" time="0.399">
+  <properties/>
+  <testcase name="testGetAllUsers" classname="com.caravena.mybatisdemo.UserServiceTest" time="0.394"/>
+  <testcase name="testGetUserById" classname="com.caravena.mybatisdemo.UserServiceTest" time="0.005"/>
+  <system-out><![CDATA[User [userId=1, emailId=caravena@nisum.com, password=123, firstName=chris, lastName=aravena]
+User [userId=2, emailId=ahomes@nisum.com, password=321, firstName=ale, lastName=homes]
+User [userId=1, emailId=caravena@nisum.com, password=123, firstName=chris, lastName=aravena]
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.ibatis.logging.LogFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
